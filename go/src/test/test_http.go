@@ -19,4 +19,3 @@ func main() {
 }
 
 //usage: 1) go run  test_http.go 2)浏览器输入: http://192.168.236.102:8888/hello
-//
