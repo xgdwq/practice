@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	var countryCapitalMap map[string]string /*创建集合 */
 	fmt.Printf("map 零值为: %v\n", countryCapitalMap)
-	countryCapitalMap = make(map[string]string)
+	countryCapitalMap = make(map[string]string) //make 返回了初始化后的（非零值）
 	fmt.Printf("获取map的类型: %T\n", countryCapitalMap)
 
 	/* map插入key - value对,各个国家对应的首都 */

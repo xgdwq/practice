@@ -16,7 +16,7 @@ func main() {
 	}
 
 	fmt.Printf("###a 的值为####: %d\n", a)
-
+    //只保留了exp1;exp2;exp3中的exp2,相当于退化到了while
 	for a < b {
 		a++
 		fmt.Printf("a 的值为: %d\n", a)
