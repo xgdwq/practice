@@ -20,9 +20,9 @@ func main() {
 	fmt.Println("numbers[4:] ==", numbers[4:])
 
 	numbers1 := make([]int, 0, 5)
-	printSlice(numbers1)
+	printSlice(numbers1) //此时为零值[], 即 nil, 长度为0，容量为5
 
-	var num []int
+	var num []int //切片零值为[], 判断即nil,此时长度和容量均为0
 	printSlice(num)
 	if num == nil {
 		fmt.Printf("num is empty\n")
