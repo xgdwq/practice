@@ -19,6 +19,9 @@ func main() {
 
 	ret := myMax(a, b)
 	fmt.Printf("max is : %d\n", ret)
+
+	x, y, z := test3rets()
+	fmt.Printf("x, y z: %d, %d, %d\n", x, y, z)
 }
 
 func myMax(num1, num2 int) int {
@@ -36,4 +39,7 @@ func mySwap(num1, num2 int) (int, int) {
 
 func mySwap2(x, y *int) {
 	*x, *y = *y, *x
+}
+func test3rets() (int, int, int) {
+	return 1, 2, 3
 }
