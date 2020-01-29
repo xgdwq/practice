@@ -18,10 +18,13 @@ func main() {
 		//故下面三条case路径都是可以执行的，具体执行哪个，go是随机的
 
 		case ch <- 1:
+			fmt.Println("execute case 1")
 
 		case ch <- 2:
+			fmt.Println("execute case 2")
 
 		case ch <- 3:
+			fmt.Println("execute case 3")
 
 		}
 

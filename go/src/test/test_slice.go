@@ -48,6 +48,10 @@ func main() {
 	copy(number2, number3)
 	printSlice(number2) //对应位置拷贝:len=4 cap=9 slice=[99 88 4 5]
 
+	tmp := make([]int, 0)
+	tmp = append(tmp, 10, 11)
+	printSlice(tmp)
+
 }
 
 func printSlice(x []int) {
