@@ -1,0 +1,8 @@
+ go run test_file1.go src_file.txt dst_file.txt
+
+ ref:
+ https://www.jianshu.com/p/31e8dddb065b
+
+ https://www.jianshu.com/p/c0654b1c50fb
+
+ https://www.cnblogs.com/endurance9/p/10349278.html
